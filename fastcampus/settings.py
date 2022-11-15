@@ -30,7 +30,8 @@ ALLOWED_HOSTS = ['3.35.167.253',
                  'ELB-349769364.ap-northeast-2.elb.amazonaws.com',
                  '192.168.9.208',
                  'ec2-3-36-90-116.ap-northeast-2.compute.amazonaws.com',
-                 '3.36.90.116']
+                 '3.36.90.116',
+                 '192.168.1.156']
 
 
 # Application definition
