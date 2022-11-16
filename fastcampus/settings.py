@@ -35,7 +35,9 @@ ALLOWED_HOSTS = ['3.35.167.253',
                  'ec2-43-201-72-241.ap-northeast-2.compute.amazonaws.com',
                  'ec2-3-36-108-75.ap-northeast-2.compute.amazonaws.com',
                  '192.168.9.242',
-                 '192.168.3.18']
+                 '192.168.3.18',
+                 'poomacy.com',
+                 'www.poomacy.com']
 
 
 # Application definition
