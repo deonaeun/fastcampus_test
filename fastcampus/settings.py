@@ -25,19 +25,7 @@ SECRET_KEY = 'django-insecure-^5l80#*%((4vh25m*3i)q)2em)dbi5hzqm-+$=f6k6paz-r(=+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['3.35.167.253',
-                 'ec2-3-35-167-253.ap-northeast-2.compute.amazonaws.com',
-                 'ELB-349769364.ap-northeast-2.elb.amazonaws.com',
-                 '192.168.9.208',
-                 'ec2-3-36-90-116.ap-northeast-2.compute.amazonaws.com',
-                 '3.36.90.116',
-                 '192.168.1.156',
-                 'ec2-43-201-72-241.ap-northeast-2.compute.amazonaws.com',
-                 'ec2-3-36-108-75.ap-northeast-2.compute.amazonaws.com',
-                 '192.168.9.242',
-                 '192.168.3.18',
-                 'poomacy.com',
-                 'www.poomacy.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -52,6 +40,7 @@ INSTALLED_APPS = [
     'order',
     'boss',
     'delivery',
+    'user',
     'rest_framework',
 ]
 
